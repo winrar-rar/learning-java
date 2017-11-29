@@ -1,18 +1,18 @@
 
 /**
- * Java version of the game FizzBuzz.
- * 
+ * Java version of the game FizzBuzz. 
+ *
  * @author Christian Andersson
  *
  */
 public class FizzBuzz {
 	public static void main(String[] args) {
-		String fizz = "Fizz"; //3
-		String buzz = "Buzz"; //5
+		String fizz = "Fizz";
+		String buzz = "Buzz";
 		String str = "";
 		
 		for(int i = 1; i <= 100; i++) {
-			str = ""; //makes str empty each time.
+			str = ""; //makes str empty for each loop.
 						
 			if(i % 3 == 0) { //if i can be divided by 3 then Fizz shall be printed
 				str += fizz; //adds Fizz to the String.
