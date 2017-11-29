@@ -19,7 +19,7 @@ public class ReverseString {
 	private static String reverse(String str) {
 		int length = str.length(); //gets the length of the String.
 		
-		//Uses StringBuilder because StringBuilder (as well as StringBuffer is mutable) 
+		//Uses StringBuilder because StringBuilder (as well as StringBuffer) is mutable 
 		//meaning it can change its values. String is immutable, if you try to alter its value, 
 		//another object is created.
 		//
